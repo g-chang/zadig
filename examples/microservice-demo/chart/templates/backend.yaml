@@ -27,7 +27,7 @@ spec:
             - protocol: TCP
               containerPort: 20219
       imagePullSecrets:
-        - name: registry-secret
+        - name: harborsecret
 ---
 apiVersion: v1
 kind: Service
